@@ -10,7 +10,7 @@ void print(double* p, const int N);
 
 int main(void){
   const int N=237;
-  const int optimized_num=5;  // optimized_num is the number of optimization
+  const int optimized_num=100;  // optimized_num is the number of optimization
                                // of local average by repeatation of loop
   const string filename="noisy.txt";
   double*p= new double [N];
